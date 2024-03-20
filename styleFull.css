@@ -1,0 +1,467 @@
+@font-face {
+    font-family: Finlandica-Medium;
+    src: url(./fonts/Finlandica-Medium.ttf);
+}
+
+body {
+    margin: auto;
+    min-width: 800px; 
+    max-width: 1200px;
+    font-size: 25px;
+    font-family: Finlandica-Medium;
+    background: #e1ecde;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: 60px;
+    width: 100%;
+    background: #495e45;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    max-width: 1200px;
+    z-index: 100;
+}
+
+.main_logo_image {
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+
+.main_whats {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    margin-left: 20px;
+    background-image: url(./image/whatsapp.png);
+    background-size: cover;
+    position: absolute;
+}
+
+.main_telegram {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    background-image: url(./image/telegram.png);
+    background-size: cover;
+    margin-left: 90px;
+}
+
+.main_menu {
+    width: 50px;
+    height: 50px;
+    background-image: url(./image/menuBtn.png);
+    margin: 5px;
+    margin-right: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+}
+
+.main_menu_launcher {
+    width: 290px;
+    background: #495e45;
+    position: fixed;
+    border-top: 2px solid #ffffff;
+    transition: all 0.5s;
+    z-index: 99;
+    top: 60px;
+}
+
+.menu_launcher_title {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #000;
+    display: flex;
+}
+
+.menu_launcher_title span {
+    margin: auto;
+    margin-left: 10px;
+}
+
+.ico_menu {
+    width: 100%;
+}
+
+.ico_item {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+
+.ico_image {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.slider {
+    width: 100%;
+    display: inline-block;
+}
+
+.median {
+    width: 100%;
+    height: 1270px;
+}
+
+.median_text {
+    font-size: 18px;
+    padding-top: 60px;
+}
+
+.median_text_logo {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.median_wrapper {
+    width: 95%;
+    display: flex;
+    background: #495e455e;
+    box-shadow: 0 0 5px 5px #495e455e;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.median_wrapper span {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+.median_image {
+    width: 38%;
+    height: 100%; 
+}
+
+.median_wrapper_two {
+    width: 95%;
+    height: 500px;
+    background: #495e455e;
+    box-shadow: 0 0 5px 5px #495e455e;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.median_wrapper_text {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.median_two_image {
+    width: 46%;
+    height: 80%;
+    display: inline-block;
+    margin: auto;
+    margin-left: 2%;    
+}
+
+.median_end { 
+    width: 95%;
+    text-align: justify;
+    background: #495e455e;
+    box-shadow: 0 0 5px 5px #495e455e;
+    margin: auto;
+}
+
+.median_end p {
+    width: 90%;
+    margin: auto;
+}
+
+.menu_price {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.menu_price_logo {
+    width: 60%;
+    height: 35px;
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
+
+.menu_price_logo p {
+    margin: auto;
+    text-align: center;
+}
+
+.menu_price_card {
+    width: 380px;
+    height: 320px;
+    background: #fff;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.price_card_name {
+    width: 80%;
+    height: 30px;
+    font-size: 22px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.price_card_image {
+    width: 95%;
+    height: 200px;
+    margin: auto;
+}
+
+.price_card_price {
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.price_card_btn {
+    width: 60%;
+    height: 35px;
+    background: linear-gradient(to bottom right, #5c8853, #fff);
+    border-radius: 25px;
+    margin: auto;
+    box-shadow: 4px 4px 6px rgb(171, 171, 174);
+}
+
+.price_card_btn span {
+    display: block;
+    padding-top: 3px;
+}
+
+.example_work_title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.example_work {
+    width: 100%;
+    height: 600px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.example_work_control {
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+}
+
+.work_control_span {
+    width: 120px;
+    height: 30px;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.work_control_prev {
+    width: 50px;
+    height: 50px;
+    rotate: 180deg;
+    background: #495e45;
+    border-radius: 50%;
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.work_control_next {
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    background: #495e45;
+    border-radius: 50%;
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.example_work_slide_wrapper {
+    width: 650px;
+    height: 90%;
+    overflow: hidden;
+    margin-top: 4px;
+    margin: auto;
+}
+
+.expample_work_slide_inner {
+    width: 400%;
+    height: 80%;
+    display: flex;
+    transition: all 0.5s;
+}
+
+.example_work_slide {
+    width: 650px;
+    height: 100%;
+}
+
+.end_logo {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+}
+
+.end_logo_text {
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 10%;
+}
+
+.end_logo_phone {
+    width: 40%;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 10%;
+}
+
+.end_logo_phone span {
+    color: #000;
+    text-decoration: underline;
+}
+
+.end_logo_whats {
+    width: 310px;
+    height: 42px;
+    background: #495e45;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    right: -140px;
+    top: -70px;
+}
+
+.end_logo_telegram {
+    width: 310px;
+    height: 42px;
+    background: #8db1b9;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 19px;
+    position: relative;
+    right: -140px;
+    top: -65px;
+}
+
+.end_logo_whats span {
+    margin: auto;
+    margin-left: 25px;
+}
+
+.end_logo_whats img {
+    width: 35px;
+    height: 35px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.end_logo_telegram span {
+    margin: auto;
+    margin-left: 15px;
+}
+
+.end_logo_telegram img {
+    width: 35px;
+    height: 35px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.modal {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1050;
+    display:none;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background-color:rgba(0,0,0,.5);
+}
+
+.modal_dialog {
+    width: 350px;
+    height: 400px;
+    margin:auto;
+    margin-top: 100px;
+}
+
+.modal_content {
+    position:relative;
+    width:100%;
+    height: 100%;
+    background-color:#e5eae4;
+    border:1px solid rgba(0,0,0,.2);
+    border-radius:4px;
+    overflow-y:auto;
+}
+
+.modal_close {
+    position:absolute;
+    top:8px;
+    right:14px;
+    font-size:30px;
+    color:#000;opacity:.5;
+    font-weight:700;
+    border:none;
+    background-color:transparent;
+    cursor:pointer
+}
+
+.show {
+    display:block;
+}
+
+.hide {
+    display:none;
+}
+
+.a_main_menu {
+    animation-duration: 0.55s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0px, - 100%, 0px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}

@@ -1,0 +1,523 @@
+@font-face {
+    font-family: Finlandica-Medium;
+    src: url(./fonts/Finlandica-Medium.ttf);
+}
+
+body {
+    margin: auto;
+    min-width: 320px;
+    max-width: 1200px;
+    font-size: 25px;
+    font-family: Finlandica-Medium;
+    background: #e1ecde;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background: #495e45;
+}
+
+.main_logo_image {
+    margin: auto;
+    height: 100%;
+    width: auto;
+}
+
+.main_whats {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    background-image: url(./image/whatsapp.png);
+    background-size: cover;
+}
+
+.main_telegram {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    background-image: url(./image/telegram.png);
+    background-size: cover;
+}
+
+.main_menu {
+    width: 50px;
+    height: 40px;
+    background-image: url(./image/menuBtn.png);
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+
+.main_menu_launcher {
+    width: 50%;
+    background: #495e45;
+    position: fixed;
+    right: 0;
+    border-top: 2px solid #000;
+    transition: all 0.5s;
+}
+
+.menu_launcher_title {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #000;
+    display: flex;
+    font-size: 20px;
+}
+
+.menu_launcher_title span {
+    margin: auto;
+    margin-left: 10px;
+}
+
+.slider {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.ico_menu {
+    width: 100%;
+}
+
+.ico_item {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+.ico_image {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.median {
+    width: 100%;
+    height: 890px;
+}
+
+.median_text {
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.median_text_logo {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.median_wrapper {
+    width: 95%;
+    display: flex;
+    background: #495e455e;
+    box-shadow: 0 0 5px 5px #495e455e;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.median_wrapper span {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+.median_image {
+    width: 55%;
+    height: 100%; 
+}
+
+.median_wrapper_two {
+    width: 95%;
+    background: #495e455e;
+    box-shadow: 0 0 5px 5px #495e455e;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.median_wrapper_text {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.median_two_image {
+    width: 46%;
+    height: 80%;
+    display: inline-block;
+    margin: auto;
+    margin-left: 2%;    
+}
+
+.median_end { 
+    width: 95%;
+    text-align: justify;
+    background: #495e455e;
+    box-shadow: 0 0 5px 5px #495e455e;
+    margin: auto;
+}
+
+.median_end p {
+    width: 90%;
+    margin: auto;
+}
+
+.menu_price {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.menu_price_min {
+    font-size: 17px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.menu_price_logo {
+    width: 60%;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-bottom: 15px;
+}
+
+.menu_price_logo p {
+    margin: auto;
+    text-align: center;
+}
+
+.menu_price_card {
+    width: 46%;
+    height: 220px;
+    background: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 2%;
+}
+
+.price_card_name {
+    width: 80%;
+    height: 30px;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.price_card_image {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+}
+
+.price_card_price {
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.price_card_btn {
+    width: 70%;
+    height: 25px;
+    background: linear-gradient(to bottom right, #5c8853, #fff);
+    border-radius: 25px;
+    margin: auto;
+    box-shadow: 4px 4px 6px rgb(171, 171, 174);
+}
+
+.price_card_btn span {
+    display: block;
+    padding-top: 3px;
+}
+
+.example_work {
+    width: 100%;
+    height: 370px;
+    padding-top: 5px;
+    position: relative;
+}
+
+.example_work_title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.example_work_control {
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.work_control_span {
+    width: 90px;
+    height: 30px;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.work_control_prev {
+    width: 40px;
+    height: 100%;
+    rotate: 180deg;
+    background: #495e45;
+    border-radius: 50%;
+}
+
+.work_control_next {
+    width: 40px;
+    height: 100%;
+    margin-left: auto;
+    background: #495e45;
+    border-radius: 50%;
+}
+
+.example_work_slide_wrapper {
+    width: 380px;
+    height: 250px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.expample_work_slide_inner {
+    width: 400%;
+    display: flex;
+    transition: all 0.5s;
+}
+
+.example_work_slide {
+    width: 380px;
+    height: 250px;
+}
+
+.end_logo {
+    width: 100%;
+    height: 150px;
+}
+
+.end_logo_text {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.end_logo_phone {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.end_logo_phone span {
+    color: #000;
+    text-decoration: underline;
+}
+
+.end_logo_whats {
+    width: 60%;
+    height: 38px;
+    background: #495e45;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.end_logo_telegram {
+    width: 60%;
+    height: 38px;
+    background: #8db1b9;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.end_logo_whats span {
+    margin: auto;
+    margin-left: 15px;
+}
+
+.end_logo_whats img {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-right: auto;
+}
+
+.end_logo_telegram span {
+    margin: auto;
+    margin-left: 15px;
+}
+
+.end_logo_telegram img {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-right: auto;
+}
+
+.modal {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1050;
+    display:none;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background-color:rgba(0,0,0,.5);
+}
+
+.modal_dialog {
+    width: 350px;
+    height: 300px;
+    margin:auto;
+    margin-top: 70px;
+}
+
+.modal_content {
+    position:relative;
+    width:100%;
+    height: 100%;
+    background-color:#e5eae4;
+    border:1px solid rgba(0,0,0,.2);
+    border-radius: 10px;
+    overflow-y:auto;
+}
+
+.end_logo_m {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.end_logo_text_m {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.end_logo_phone_m {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.end_logo_phone_m span {
+    color: #000;
+    text-decoration: underline;
+}
+
+.end_logo_whats_m {
+    width: 75%;
+    height: 38px;
+    background: #495e45;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.end_logo_telegram_m {
+    width: 75%;
+    height: 38px;
+    background: #8db1b9;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.end_logo_whats_m span {
+    margin: auto;
+    margin-left: 15px;
+}
+
+.end_logo_whats_m img {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-right: auto;
+}
+
+.end_logo_telegram_m span {
+    margin: auto;
+    margin-left: 15px;
+}
+
+.end_logo_telegram_m img {
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-right: auto;
+}
+
+.modal_close {
+    position:absolute;
+    top:8px;
+    right:14px;
+    font-size:30px;
+    color:#000;opacity:.5;
+    font-weight:700;
+    border:none;
+    background-color:transparent;
+    cursor:pointer
+}
+
+.show {
+    display:block;
+}
+
+.hide {
+    display:none;
+}
+
+.a_main_menu {
+    animation-duration: 0.55s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translate3d(0px, - 100%, 0px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
